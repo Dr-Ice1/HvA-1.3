@@ -7,7 +7,7 @@ import seaborn as sns
 
 
 stoelen = 17
-rijen = 2
+rijen = 8
 aantal_meetingen_perstoel = 3
 
 

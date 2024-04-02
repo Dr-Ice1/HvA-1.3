@@ -4,7 +4,7 @@ from scipy.signal import savgol_filter
 import time
 import pandas as pd
 
-# hier gee je aam hoeveel stoelen en rijen je hebt ook hoeveel meetingen je per stoel wilt doen
+# hier geef je aan hoeveel stoelen en rijen je hebt, ook hoeveel meetingen je per stoel wilt doen
 # als je een andere soort ruimte gaat meeten voor je hier in hoeveel meetingen je in de lengte en breete doet
 # hier geef je aan hoegrote drop van db je wilt meten en hij berekend meteen de factor die je nagalm tijd vermedigd vuldigd zodat hij een werkelijke drop van 60 zou hebben
 stoelen = 7

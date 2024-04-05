@@ -23,11 +23,13 @@ print(data.dtype)
 
 data = data.astype(float)
 
-sns.heatmap(data, annot=True, cmap='viridis', fmt='.2f', cbar_kws={'label': 'Nagalmtijden'})
+plt.imshow(data,cmap='tab20b',interpolation='gaussian',aspect='auto')
 
 plt.title('Heatmap WBH02B09 -- Projectgroep 4')
 plt.xlabel('Stoel')
 plt.ylabel('Rij')
+plt.colorbar(label='Nagalmtijd (s)')
+
 
 plt.xticks(np.arange(0.5, data.shape[1]+0.5, 1), np.arange(1, data.shape[1]+1, 1))
 plt.yticks(np.arange(0.5, data.shape[0]+0.5, 1), np.arange(1, data.shape[0]+1, 1))

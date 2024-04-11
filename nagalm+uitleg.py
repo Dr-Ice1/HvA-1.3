@@ -3,6 +3,7 @@ from scipy.signal import find_peaks
 from scipy.signal import savgol_filter
 import time
 import pandas as pd
+import seaborn as sns
 
 # hier geef je aan hoeveel stoelen en rijen je hebt, ook hoeveel meetingen je per stoel wilt doen
 # als je een andere soort ruimte gaat meeten voor je hier in hoeveel meetingen je in de lengte en breete doet

@@ -4,6 +4,7 @@ import time
 import pandas as pd
 import seaborn as sns
 import numpy as np
+import matplotlib.pyplot as plt
 
 # hier geef je aan hoeveel stoelen en rijen je hebt, ook hoeveel meetingen je per stoel wilt doen
 # als je een andere soort ruimte gaat meeten voor je hier in hoeveel meetingen je in de lengte en breete doet
